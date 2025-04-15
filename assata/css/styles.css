@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  background-color: #000;
+  color: #333;
+  height: 100vh;
+  line-height: 1.6;
+  /* scroll-behavior: smooth; */
+}
+
+header {
+  position: fixed;
+  width: 95%;
+  z-index: 100;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+a:hover {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.img-logo {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  margin: 8px 15px 0 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+li {
+  transition: all 0.5s ease-in-out;
+}
+.img-logo:hover,
+li:hover {
+  transform: scale(1.2);
+  filter: brightness(0.8);
+}
+.imge {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.imge:hover {
+  transform: scale(1.2);
+}
+section {
+  position: relative;
+  transform: translate(0px, 120px);
+}
+
+h2 {
+  font-size: 2.2rem;
+  color: white;
+
+  margin-top: 20px;
+}
+.icons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-42%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-top: 40px;
+}
+.icons img {
+  width: 65px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+  filter: brightness(0.8);
+}
